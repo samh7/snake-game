@@ -11,4 +11,10 @@ body {
   text-align: center;
   display: grid;
   justify-content: center;
+  overflow: hidden;
+}
+
+.unsupported-device{
+  width: 200vw;
+  height: 100vh;
 }

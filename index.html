@@ -8,8 +8,13 @@
     <script defer src="./script.js"></script>
   </head>
   <body class="fill-screen bg-white text-black">
-    <div class="mt-10 text-3xl" >Snake</div>
-    <!-- Your Code Goes Here -->
-    <canvas class="-mt-10"  id="board"></canvas>
+    <div class="unsupported-device font-sans sm:hidden text-white grid place-items-center bg-black">
+      unsupported device
+    </div>
+    <div class="canvas-container">
+      <div class="mt-10 text-3xl">Snake</div>
+      <!-- Your Code Goes Here -->
+      <canvas class="mt-7" id="board"></canvas>
+    </div>
   </body>
 </html>
